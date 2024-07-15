@@ -103,11 +103,13 @@
         /* Stilsetzung für die Kontaktkarten */
         .card {
             margin-top: 15px;
-            background-color: rgba(0, 0, 0, 1);
+            background-color: #fff; /* Hintergrundfarbe auf weiß gesetzt */
             padding: 8px; /* padding; zu padding: korrigiert */
             padding-left: 48px;
             position: relative;
-            color: white; /* Textfarbe auf weiß gesetzt */
+            color: black; /* Textfarbe auf schwarz gesetzt */
+            border-radius: 8px; /* Abrundung der Ecken hinzugefügt */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Schatten hinzugefügt */
         }
 
         /* Stilsetzung für das Profilbild in den Kontaktkarten */
@@ -151,10 +153,10 @@
     <div class="main">
         <!-- Seitenmenü -->
         <div class="menu">
-            <a href="PHP1.php?page=start"><img src="IMG-PHP/home1.svg"> Start</a> 
-            <a href="PHP1.php?page=contacts"><img src="IMG-PHP/menu.svg"> Kontakte</a> 
-            <a href="PHP1.php?page=addcontact"><img src="IMG-PHP/plus1.svg"> Kontakt hinzufügen</a>
-            <a href="PHP1.php?page=legal"><img src="IMG-PHP/policy.svg"> Impressum</a> 
+            <a href="Kontaktbuch.php?page=start"><img src="IMG-PHP/home1.svg"> Start</a> 
+            <a href="Kontaktbuch.php?page=contacts"><img src="IMG-PHP/menu.svg"> Kontakte</a> 
+            <a href="Kontaktbuch.php?page=addcontact"><img src="IMG-PHP/plus1.svg"> Kontakt hinzufügen</a>
+            <a href="Kontaktbuch.php?page=legal"><img src="IMG-PHP/policy.svg"> Impressum</a> 
         </div>     
 
         <!-- Inhaltsbereich -->
@@ -216,7 +218,7 @@
             } elseif (isset($_GET['page']) && $_GET['page'] == 'addcontact') {
                 echo "
                 <div>Auf dieser Seite kannst du einen weiteren Kontakt hinzufügen</div>
-                <form action='/projekt1/PHP1.php?page=contacts' method='POST'>
+                <form action='/projekt1/Kontaktbuch.php?page=contacts' method='POST'>
                     <div>
                         <input placeholder='Namen eingeben' name='name'>
                     </div>

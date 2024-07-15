@@ -3,16 +3,13 @@
         "name": "Klaus",
         "phone": "0173000000"
     },
-    {
-        "name": "Alexander",
-        "phone": "0173000000as"
-    },
+
     {
         "name": "Lars",
-        "phone": "0163445889234"
+        "phone": "016344588234"
     },
     {
         "name": "Max",
-        "phone": "Mustermann"
+        "phone": "016345221034"
     }
 ]
