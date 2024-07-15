@@ -1,6 +1,5 @@
 <?php
 
-// $hulk = ["Waffenstärke"=>"4", "Körpergröße"=>"201", "Körperstärke"=>"90", "Technologie"=>"90" , "HeldenRating"=>"90"];
 $hulk = ["Waffenstärke" => 1, "Körpergröße" => 201, "Körperstärke" => 90, "Technologie" => 1, "Heldenrating" => 72];
 
 $IronMan = ["Waffenstärke"=>"4", "Körpergröße"=>"198", "Körperstärke"=>"50", "Technologie"=>"5" , "HeldenRating"=>"84"];
@@ -250,29 +249,3 @@ $IronMan = ["Waffenstärke"=>"4", "Körpergröße"=>"198", "Körperstärke"=>"50
 
     </body>
 </html>
-'<?php'
-
-
-// Hulk Werte
-// $HWaffenstärke = 4;
-// $HKörpergröße = 201;
-// $HKörperstärke = 90;
-// $HTechnologie = 1;
-// $HHeldenRating = 72;
-
-// // Iron Man Werte
-// $IWaffenstärke = 40;
-// $IKörpergröße = 198;
-// $IKörperstärke = 50;
-// $ITechnologie = 5;
-// $IHeldenRating = 84;
-
-// if ($HKörpergröße > $IKörpergröße){
-//     echo 'Hulk hat gewonnen!' ;
-// }
-
-
-
-
-
-'?>'
