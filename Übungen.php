@@ -3,26 +3,22 @@
 <body>
 
 <?php
-    $test = "Hello World";
-    $x = 1330;
-    $y = 1337;
-    
-    $Kartensatz = array("IronMan" => 1 , "Hulk" => 2 );
-    foreach ($Kartensatz as $key => $value){
-        print ("$key:$value<br>");
-
-    }
-
-
-    
-  '  foreach ($Array as $Wert )
-    {
-        echo $Wert;
-    }
-'
-
+   
+function playgwent ($name){
+    echo "Bock auf eine Runde Gwent, $name?";
+}
 
    
+   function addieren ($n){
+    if ($n < 1){
+        return;
+    }
+    echo $n;
+    addieren($n -1);
+
+   }
+
+   echo addieren (5);
 
     ?>
 </body>
